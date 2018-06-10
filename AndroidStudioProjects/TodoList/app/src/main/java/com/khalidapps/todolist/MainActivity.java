@@ -54,15 +54,6 @@ public class MainActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu, menu);
 
-        // all this code in comments made the app crash
-
-        // change menu icon color
-        //Drawable icon = menu.getItem(0).getIcon();
-        //icon.mutate();
-        //if (Build.VERSION.SDK_INT >= 15) {
-          //  icon.setColorFilter(Color.WHITE, PorterDuff.Mode.SRC_IN);
-        //}
-
         return super.onCreateOptionsMenu(menu);
     }
 
